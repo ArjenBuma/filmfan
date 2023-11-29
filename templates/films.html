@@ -20,6 +20,8 @@
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">Regisseur: {{regs[i].voornaam}} {{regs[i].achternaam}} </li>
                     </ul>
+
+                    <a href="/film/{{films[i].id}}" class="btn btn-primary stretched-link">Goto</a>
                 </div>
             </div>
         {%endfor%}
