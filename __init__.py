@@ -16,6 +16,7 @@ from extensions import db
 
 basedir = os.path.abspath(os.path.dirname(__name__))
 
+# test staging
 def create_app():
     app = Flask (__name__)
     
